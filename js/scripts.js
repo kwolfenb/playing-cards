@@ -7,13 +7,12 @@ $(document).ready(function(event) {
 
 
  values.forEach(function(value){
-  return value 
-})
-
   suits.forEach(function(suit) {
-    var result = suit.concat(cards);
+    $(".list").text(suit + "of" + value);
 
 
+  });
+});
 
-    $(".list").append(values);
+
   });
